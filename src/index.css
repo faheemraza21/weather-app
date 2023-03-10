@@ -1,0 +1,50 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+
+@layer{
+     
+    .background{
+        background-image: url('./assests/logo1.jpg'); /*linear-gradient(to right, #8360c3, #2ebf91);*/
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity:0.8;
+       
+        z-index:-1;
+    }
+    .background1{
+        background-image: url('./assests/logo1.jpg'); /*linear-gradient(to right, #8360c3, #2ebf91);*/
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity:0.5;
+       width: 100%;
+       height: 100%;
+        z-index:-1;
+    }
+    .border{
+        border-radius: 25px ;
+        padding: 1rem, 0.5rem;
+        
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .center-div{
+        border-radius: 20px;
+        border-color: black;
+        border-width: 2rem; 
+        border: 1rem,1rem, 1rem, 1rem ;
+
+    }
+    .pad{
+        padding: 2px 2px;
+    }
+    
+    ::placeholder{
+        color: black;
+    }
+
+    .dox{
+
+        justify-content: center;
+    }
+}
